@@ -1,6 +1,6 @@
 <template>
-	<section id="contact" class="pb-[32px]">
-		<h2 class="section-title">Kontakt</h2>
+	<section id="contact" class="bg-[#c4f3ff]">
+		<h2 class="section-title pt-[32px]">Kontakt</h2>
 		<div class="wrapper flex justify-center gap-[24px]">
 			<div class="flex items-center gap-[8px]">
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
@@ -20,12 +20,19 @@
 					/>
 				</svg>
 
-				<a href="mailto:kontakt@kbkatywr.pl" class="text-blue-500 underline">kontakt@kbkatywr.pl</a>
+				<a :href="`mailto:${email}`" class="text-blue-500 underline">{{ email }}</a>
 			</div>
 		</div>
 	</section>
 </template>
 
-<script setup lang="ts"></script>
-
+<script setup lang="ts">
+	const email = ref('')
+	onMounted(() => {
+		const user = 'kontakt'
+		const domain = 'kbkatywr.pl'
+		email.value = `${user}@${domain}`
+	})
+</script>
+	
 <style scoped></style>

@@ -73,3 +73,10 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+# KB Katy Wrocławskie deployment
+
+```
+npm run generate
+```
+Copy `dist` folder to the server to `\bieg` folder.
