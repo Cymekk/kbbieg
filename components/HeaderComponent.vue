@@ -53,7 +53,7 @@ const hours = ref(null)
 const minutes = ref(null)
 const seconds = ref(null)
 
-const startDate = new Date('09-07-2025 10:00').getTime()
+const startDate = new Date('09-14-2025 10:00').getTime()
 
 const calculateRemainingTime = () => {
 	delta.value = Math.abs(startDate - Date.now()) / 1000
@@ -71,7 +71,6 @@ calculateRemainingTime()
 onMounted(() => {
 	setInterval(calculateRemainingTime, 1000)
 })
-
 </script>
 
 <style scoped></style>
