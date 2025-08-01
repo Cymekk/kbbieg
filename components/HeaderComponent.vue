@@ -21,7 +21,7 @@
 					>Regulamin Biegu</a
 				>
 			</div>
-			<div class="timer text-white mt-[16px] lg:mt-[32px]">
+			<div v-if="isDataValid" class="timer text-white mt-[16px] lg:mt-[32px]">
 				<p class="text-center text-[22px] font-semibold lg:text-[28px]">Do startu pozostało:</p>
 				<div class="flex gap-[24px] justify-center">
 					<div class="flex flex-col items-center">
@@ -47,6 +47,7 @@
 </template>
 
 <script setup>
+const isDataValid = ref(true)
 const delta = ref(null)
 const days = ref(null)
 const hours = ref(null)
@@ -69,6 +70,7 @@ const calculateRemainingTime = () => {
 calculateRemainingTime()
 
 onMounted(() => {
+	if (startDate < Date.now()) isDataValid.value = false
 	setInterval(calculateRemainingTime, 1000)
 })
 </script>

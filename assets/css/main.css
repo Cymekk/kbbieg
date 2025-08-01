@@ -31,5 +31,5 @@ html {
 }
 
 .partners-title {
-	@apply text-[32px] text-center my-[48px];
+	@apply text-[32px] text-center uppercase my-[48px];
 }
