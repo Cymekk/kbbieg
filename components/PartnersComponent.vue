@@ -74,6 +74,10 @@
 						src="../assets/img/sponsors/Slawomir_Hryniewicz.jpg"
 						alt="Sławomir Hryniewicz Radny Powiatu Wrocławskiego"
 				/></a>
+
+				<a href="https://www.facebook.com/greenandsnow"
+					><img src="../assets/img/sponsors/Green_Snow.jpeg" alt="Logo Firmy Green & Snow"
+				/></a>
 			</div>
 
 			<h3 class="partners-title text-[#964B00]">Partner brązowy:</h3>
