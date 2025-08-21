@@ -15,6 +15,11 @@
 				/></a>
 			</div>
 
+			<h3 class="partners-title text-[#b9b7b3]">Partner platynowy:</h3>
+			<div class="partners-box">
+				<a href="https://kbkatywr.pl"><img src="../assets/img/sponsors/PKO.png" alt="Logo PKO Bank Polski" /></a>
+			</div>
+
 			<h3 class="partners-title text-[#ffc400]">Partner złoty:</h3>
 			<div class="partners-box">
 				<a href="https://www.alba.com.pl/"
@@ -26,6 +31,8 @@
 						src="../assets/img/sponsors/Bank_Spoldzielczy.png"
 						alt="Logo Banku Spółdzielczego w Kątach Wrocławskich"
 				/></a>
+				<a href="https://cedo.com/"><img src="../assets/img/sponsors/cedo.png" alt="Logo firmy Cedo" /></a>
+				<a href="https://lodywanda.pl/"><img src="../assets/img/sponsors/Wanda.png" alt="Logo firmy Wanda" /></a>
 			</div>
 
 			<h3 class="partners-title text-[#929292]">Partner srebrny:</h3>
@@ -44,6 +51,28 @@
 				/></a>
 				<a href="https://salvus.pl/"
 					><img src="../assets/img/sponsors/Salvus.jpg" alt="Logo zakładu stomatologicznego Salvus"
+				/></a>
+				<a href="https://www.knauf-industries.pl/"
+					><img src="../assets/img/sponsors/knauf.png" alt="Logo firmy Knauf"
+				/></a>
+				<a href="https://browarcaminus.pl/"
+					><img src="../assets/img/sponsors/caminus.png" alt="Logo browaru Caminus"
+				/></a>
+
+				<a href="https://alfasc.pl/"><img src="../assets/img/sponsors/alfa.png" alt="Logo firmy AlfaSC" /></a>
+
+				<a href="https://www.prospect-pack.pl/"
+					><img src="../assets/img/sponsors/prospect_pack.png" alt="Logo firmy Prospect Pack"
+				/></a>
+
+				<a href="https://troskliwa-kraina.pl/"
+					><img src="../assets/img/sponsors/troskliwa_kraina.jpg" alt="Logo żłobku Troskliwa Kraina"
+				/></a>
+
+				<a href="https://www.facebook.com/p/S%C5%82awomir-Hryniewicz-100063525519555/"
+					><img
+						src="../assets/img/sponsors/Slawomir_Hryniewicz.jpg"
+						alt="Sławomir Hryniewicz Radny Powiatu Wrocławskiego"
 				/></a>
 			</div>
 
@@ -64,6 +93,10 @@
 				<a href="https://www.facebook.com/dareckamakeup/?locale=pl_PL"
 					><img src="../assets/img/sponsors/Darecka_Beauty.png" alt="Logo firmy Darecka Beauty"
 				/></a>
+
+				<a href="https://zielonkascool.pl/"
+					><img src="../assets/img/sponsors/zielonka.png" alt="Logo szkoły językowej Zielonka S'Cool"
+				/></a>
 			</div>
 			<h3 class="partners-title">Partner techniczny:</h3>
 			<div class="partners-box">
@@ -73,7 +106,7 @@
 				<a href="https://twojadruzyna.pl/"
 					><img src="../assets/img/sponsors/Twoja_Drużyna.jpg" alt="Logo komitetu Twoja Drużyna"
 				/></a>
-
+				<a href="https://mamutsa.pl/"><img src="../assets/img/sponsors/mamut.png" alt="Logo Firmy Mamut" /></a>
 			</div>
 		</div>
 	</section>

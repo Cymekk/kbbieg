@@ -54,7 +54,7 @@
 			</div>
 
 			<img
-				src="../assets/img/poster.jpeg"
+				src="../assets/img/poster.jpg"
 				alt="Plakat reklamujący bieg"
 				class="rounded hover:scale-110 transition-transform duration-300 lg:max-w-2/5"
 			/>

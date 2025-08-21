@@ -27,7 +27,7 @@ html {
 }
 
 .partners-box {
-	@apply flex gap-[32px] flex-wrap justify-center;
+	@apply flex gap-[32px] flex-wrap justify-center items-center;
 }
 
 .partners-title {
